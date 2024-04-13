@@ -36,7 +36,7 @@ public class ImageToAscii {
 
                     result.write(charOut);
                 }
-                result.write("\n"); // quando acabar o ciclo for (relativo ao x), devemos passar para a proxima linha do ficheiro
+                result.write("\n");
             }
             result.close();
             System.out.println("Imagem convertida com sucesso!");
